@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="Sonic.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="nav">
+    <p class="txt">
+      KAYMEDIA
+    </p>
+  </div>
+  <div class="son">
+  <img style="width:300px;" src="Images/Mobi.jpeg" alt="sonic">
+  <p class="tet" style="padding-top:10px;">Morbius</p>
+  <p class="tet" style="font-size:20px;color:#393279">DIRECTOR:  <span style="font-size:20px;color:#D83F87">Daniel Espinosa</span></p>
+  <p style="text-align:center;color:#393279;font-size:20px;padding-right:55px">
+   Dangerously ill with a rare blood disorder and determined to save others from the same fate, Dr. Morbius attempts a desperate gamble. While at first it seems to be a radical success, a darkness inside of him is soon unleashed.
+  </p>
+  <a style="text-decoration:none;"href="Movies/morbius.mp4" download>
+    <p style="color:#D83F87;font-size:25px;font-weight:bold;text-align:center;padding-right:52px">CLICK TO DOWNLOAD</p>
+    </a>
+  
+  </div>
+    </div>
+  <footer>
+    <div class="lastt">
+      <div class="foo" style="padding:10px 0 10px 20px">
+        <p style="color:#D83F87;padding-left:20px">
+          SOCIAL MEDIA
+        </p>
+        <ul style="list-style-type:none";>
+          <a style="text-decoration:none" href=""><li style="color:#D83F87">Instagram</li></a>
+          <a style="text-decoration:none" href=""><li style="color:#D83F87">Twitter</li></a>
+          <a style="text-decoration:none" href=""><li style="color:#D83F87">Facebook</li></a>
+        </ul>
+      </div>
+      <div class="fon" style="padding: 10px 20px 10px 0">
+        <p style="color:#D83F87;padding-left:20px">
+          RESOURCES
+        </p>
+        <ul style="list-style-type:none";>
+          <a style="text-decoration:none" href=""><li style="color:#D83F87">Contact Us</li></a>
+          <a style="text-decoration:none" href=""><li style="color:#D83F87">Privacy policy</li></a>
+          <a style="text-decoration:none" href=""><li style="color:#D83F87">About Us </li></a>
+        </ul>
+      </div>
+      <p style="color:#D83F87; padding-left:80px" id="copyright"></p>
+    </div>
+
+  </footer>
+  </body>
+  <script>
+  function copyrightYear() {
+    var d = new Date();
+    var y = d.getFullYear();
+    document.getElementById("copyright").innerHTML = 'Copyright &copy; ' + y + ' KAYMEDIA';
+  }
+
+  copyrightYear();
+</script>
+  </html>

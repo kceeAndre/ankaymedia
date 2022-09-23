@@ -1,0 +1,106 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="Index.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="nav">
+
+    <p class="txt">
+      KAYMEDIA
+    </p>
+  </div>
+  <div style="margin-top:48px">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/Doc.jpeg" class="d-block w-100" alt="Multiverse of madness">
+        </div>
+        <div class="carousel-item">
+          <img style="height:220px" src="Images/Mob.jpeg" class="d-block w-100" alt="Morbius">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Cha.jpeg" class="d-block w-100" alt="uncharted">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="lat">
+    <p class="navnd">
+      LATEST MOVIES
+    </p>
+  </div>
+  <div class="list1">
+    <img style="margin-left:18%;margin-top:10px; height:300px"src="Images/Sonic.jpeg" alt="sonic the hedgehog">
+    <a style="text-decoration:none" href="Sonic.html">
+      <p class="lint" style="text-align:center; margin-top:15px">
+        Sonic The Hedgehog 2 >>
+      </p>
+    </a>
+  </div>
+  <div class="list1">
+    <img style="margin-left:18%;margin-top:10px; height:300px"src="Images/Mobi.jpeg" alt="sonic the hedgehog">
+    <a style="text-decoration:none" href="Morbius.html">
+      <p class="lint" style="text-align:center; margin-top:15px">
+        Morbius>>
+      </p>
+    </a>
+  </div>
+  <div class="list1">
+    <img style="width:65%;margin-left:18%;margin-top:10px; height:300px"src="Images/Ambu.jpeg" alt="sonic the hedgehog">
+    <a style="text-decoration:none" href="Ambulance.html">
+      <p class="lint" style="text-align:center; margin-top:15px">
+        Ambulance >>
+      </p>
+    </a>
+  </div>
+  <footer>
+    <div class="lastt">
+      <div class="foo" style="padding:10px 0 10px 20px">
+        <p style="color:#D83F87;padding-left:20px">
+          SOCIAL MEDIA
+        </p>
+        <ul style="list-style-type:none";>
+          <a style="text-decoration:none" href=""><li style="color:#D83F87">Instagram</li></a>
+          <a style="text-decoration:none" href=""><li style="color:#D83F87">Twitter</li></a>
+          <a style="text-decoration:none" href=""><li style="color:#D83F87">Facebook</li></a>
+        </ul>
+      </div>
+      <div class="fon" style="padding: 10px 20px 10px 0">
+        <p style="color:#D83F87;padding-left:20px">
+          RESOURCES
+        </p>
+        <ul style="list-style-type:none";>
+          <a style="text-decoration:none" href=""><li style="color:#D83F87">Contact Us</li></a>
+          <a style="text-decoration:none" href=""><li style="color:#D83F87">Privacy policy</li></a>
+          <a style="text-decoration:none" href=""><li style="color:#D83F87">About Us </li></a>
+        </ul>
+      </div>
+      <p style="color:#D83F87; padding-left:80px" id="copyright"></p>
+    </div>
+
+  </footer>
+</body>
+<script>
+  function copyrightYear() {
+    var d = new Date();
+    var y = d.getFullYear();
+    document.getElementById("copyright").innerHTML = 'Copyright &copy; ' + y + ' KAYMEDIA';
+  }
+
+  copyrightYear();
+</script>
+</html>
